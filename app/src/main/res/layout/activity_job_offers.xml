@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/jobOffers"
+    android:background="#5C75E1EF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFW Job Agency"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOB OFFERS"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="150dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/housemaid"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Housemaid"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$30,000"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="45dp"/>
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rounded_button"
+        android:text="APPLY" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="150dp"
+        android:src="@drawable/chef"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chef"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="185dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$50,000"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="175dp"/>
+
+    <Button
+        android:id="@+id/btnApplyChef"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rounded_button"
+        android:text="APPLY" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="280dp"
+        android:src="@drawable/midwife"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Midwife"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="305dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$10,000"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="305dp"/>
+
+    <Button
+        android:id="@+id/btnApplyMidWife"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rounded_button"
+        android:text="APPLY" />
+
+</RelativeLayout>
